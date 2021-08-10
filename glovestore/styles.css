@@ -1,0 +1,220 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header ul{
+    width: 150px;
+}
+ul{
+    list-style: none;
+    
+}
+header i{
+    color: white ;
+    font-size:130%;
+}
+.search{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none !important;
+}
+header a{
+    color: white;
+    font-weight: 600;
+}
+header a:hover{
+    color: red ;
+}
+#money{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: 600;
+    /* height: 0px; */
+    color: white;
+    background-color: black;
+}
+.hconttop{
+    /* height: 50%; */
+    align-items: flex-start;
+    margin-left: 2%;
+    width: 300px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+/* .hconttop a{
+    margin: 1%;
+} */
+.lblue :hover{
+        color: #0056dd;
+}
+.red :hover{
+    color: red;
+}
+.blue :hover{
+    color: blue !important;
+}
+.pink :hover{
+    color: #f23859;
+}
+/* .blue{
+    color: blue;
+} */
+nav{
+    padding-bottom: 2px;
+    width: 100%;
+    text-align: center;
+}
+nav >ul{
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+/* nav  ul{
+    margin: auto;
+    width: 50%;
+    min-width: 1000px;
+} */
+nav >ul >li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav li:hover{
+    background-color: gray;
+    color: black !important;
+}
+nav li:hover > a{
+    color: black;
+}
+ .dropdown > a::after{
+    font-family: fontawesome;
+    content: "\f107";
+    margin-left: 10px;
+  
+}
+.dropdown:hover .drop{
+    display: block;
+}
+.drop{
+     display: none; 
+    position: absolute;
+    top: 45px;
+    background-color: black;
+    padding: 10px 0px;
+    width: 150px;
+    left: 0px;
+}
+.dropmenu{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45px;
+    background-color: black;
+    width: 100vw;
+    left: -42vw;
+    /* overflow-x: hidden !important; */
+
+}
+.drop li{
+    padding: 4px 0px;
+}
+.drop li:hover >a {
+    /* color: rgba(245, 245, 245, 0.808); */
+    color: #dedbdb;
+}
+.drop li:hover .dropdown>li>a{
+    color: whitesmoke;
+}
+.drop ::after{
+    content: none;
+}
+nav a{
+    color: white;
+}
+/* .main{
+    width: 80%;
+    margin: auto;
+    min-width: 1000px;
+} */
+section{
+    margin-top: 5px;
+}
+.breadcrumbs, .breadcrumbs>a
+{
+    color: #ccc;
+}
+h1{
+    border-bottom: 1px solid rgba(163, 160, 160, 0.884);
+    font-size: 24px !important;
+}
+.sort{
+    justify-content: flex-end;
+}
+.sort select{
+    margin-left: 5px;
+    height: 30px;
+    border:1px solid #d5d5d5;
+    border-radius: 5px;
+}
+/* .main{
+    max-width: 1400px;
+} */
+.mainc img{
+    max-width: 100%;
+}
+.price{
+    text-align: center;
+}
+.color{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1PX solid black;
+}
+.color:hover{
+    width: 25px;
+    height: 25px;
+}
+.colors{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+   margin-top: 10px;
+}
+.colorc{
+    width: 30px;
+    height: 30px;
+}
+.title{
+    color: black;
+    font-size: 1.1rem; 
+    text-align: center;
+}
+.title  :hover{
+    text-decoration: underline;
+}
+.greeng{
+   background-image: linear-gradient(#b6f40d 50%,black 50%); 
+}
+.blueg{
+    background-image: linear-gradient(blue 50%,black 50%); 
+}
+.grey-green{
+    background-image: linear-gradient(grey 50%,#b6f40d 50%); 
+}
+.gif :hover > img{
+    /* src: url(images\glovegif.gif); */
+    /* padding: 100px; */
+}
+@media only screen and (min-width:1200px) {
+  .main{
+      max-width: 1400px;
+  }
+}
