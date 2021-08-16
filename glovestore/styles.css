@@ -110,16 +110,37 @@ nav li:hover > a{
     width: 150px;
     left: 0px;
 }
-.dropmenu{
+.dropdown:hover + .dropmenu{
     display: flex;
+}
+.dropmenu:hover{
+    display: flex;
+}
+ .dropmenu{
+    display: none;
     justify-content: space-between;
     position: absolute;
-    top: 45px;
+    top: 161px;
     background-color: black;
     width: 100vw;
-    left: -42vw;
+    left: 0px;
+    padding: 10px 5%;
     /* overflow-x: hidden !important; */
-
+    z-index: 100;
+} 
+.dropin{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: left;
+    padding:  0px 2%;
+}
+.dropin a{
+    padding: 1px;
+}
+.dropin a:hover{
+    background-color: gray;
+    color: #dedbdb;
 }
 .drop li{
     padding: 4px 0px;
@@ -165,7 +186,8 @@ h1{
 /* .main{
     max-width: 1400px;
 } */
-.mainc img{
+.mainc img{ 
+    width: 100%;
     max-width: 100%;
 }
 .price{
